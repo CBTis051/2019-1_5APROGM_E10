@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
         };
 
         var json = JSON.stringify(objeto);
-    res.end();
+    res.end(json);
 
 
 }).listen(8081);
